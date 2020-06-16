@@ -12,7 +12,7 @@ function App() {
           Let's repeat all the sessions.
         </p>
 
-        <MyChild />
+        <MyChild childname='smart kid'/>
 
         <a
           className="App-link"
