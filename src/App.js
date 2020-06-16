@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import MyChild from './child'
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
         <p>
           Let's repeat all the sessions.
         </p>
+
+        <MyChild />
+
         <a
           className="App-link"
           href="https://reactjs.org"
