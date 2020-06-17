@@ -1,8 +1,8 @@
 import React from 'react';
 
-function TodayWeather (){
+function TodayWeather (props){
     return(
-        <div>Today weather is </div>
+        <div>Today weather is {props.checkweathr} </div>
     );
 }
 export default TodayWeather;

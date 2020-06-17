@@ -16,10 +16,9 @@ function App() {
           Let's repeat all the sessions.
         </h1>
 
-        
-
         <MyChild childname='smart kid'  counter={count}/>
         <button onClick={()=> setCount(count + 1)}>Update Counter</button>
+        <TodayWeather checkweather={weather ? 'Hot' : 'Cold'}/>
         <a
           className="App-link"
           href="https://reactjs.org"
