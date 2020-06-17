@@ -6,6 +6,16 @@
   height: 40vmin;
   pointer-events: none;
 }
+.hot{
+  height: 500px;
+  width: 500px;
+  background-color: red;
+}
+.cold{
+  height: 500px;
+  width: 500px;
+  background-color: lightskyblue;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
