@@ -6,20 +6,19 @@ import MyChild from './child'
 function App() {
   
   let [count,setCount] = useState(0);
-
-  
+   
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <h1>
           Let's repeat all the sessions.
-        </p>
+        </h1>
 
-        <button onClick={()=> setCount(count + 1)}>Update Counter</button>
+        
 
         <MyChild childname='smart kid'  counter={count}/>
-
+        <button onClick={()=> setCount(count + 1)}>Update Counter</button>
         <a
           className="App-link"
           href="https://reactjs.org"
