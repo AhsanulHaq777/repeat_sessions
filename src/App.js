@@ -6,7 +6,7 @@ import MyChild from './child'
 function App() {
   
   let [count,setCount] = useState(0);
-   
+  let [weather,setWeather] = useState(true); 
   return (
     <div className="App">
       <header className="App-header">
