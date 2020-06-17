@@ -7,13 +7,13 @@
   pointer-events: none;
 }
 .its-hot{
-  height: 500px;
-  width: 500px;
+  height: 100px;
+  width: 100px;
   background-color: red;
 }
 .its-cold{
-  height: 500px;
-  width: 500px;
+  height: 100px;
+  width: 100px;
   background-color: lightskyblue;
 }
 
