@@ -6,12 +6,12 @@
   height: 40vmin;
   pointer-events: none;
 }
-.hot{
+.its-hot{
   height: 500px;
   width: 500px;
   background-color: red;
 }
-.cold{
+.its-cold{
   height: 500px;
   width: 500px;
   background-color: lightskyblue;

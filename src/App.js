@@ -18,7 +18,9 @@ function App() {
 
         <MyChild childname='smart kid'  counter={count}/>
         <button onClick={()=> setCount(count + 1)}>Update Counter</button>
-        <TodayWeather checkweather={weather ? 'Hot' : 'Cold'}/>
+        <div className={`hot ${weather ? 'its-hot' : 'its-cold'}`}>
+          <TodayWeather checkweather={weather ? 'Hot' : 'Cold'}/>
+        </div>
         <a
           className="App-link"
           href="https://reactjs.org"
