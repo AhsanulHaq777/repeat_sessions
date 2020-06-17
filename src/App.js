@@ -1,9 +1,13 @@
-import React from 'react';
+import React , {useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import MyChild from './child'
 
 function App() {
+  
+  let [count,setCount] = useState(0);
+
+  
   return (
     <div className="App">
       <header className="App-header">
@@ -12,7 +16,9 @@ function App() {
           Let's repeat all the sessions.
         </p>
 
-        <MyChild childname='smart kid'/>
+        <button>Update Counter</button>
+
+        <MyChild childname='smart kid'  counter={count}/>
 
         <a
           className="App-link"
