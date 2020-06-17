@@ -2,6 +2,7 @@ import React , {useState} from 'react';
 import logo from './logo.svg';
 import './App.css';
 import MyChild from './child'
+import TodayWeather from './weather'
 
 function App() {
   

@@ -5,3 +5,4 @@ function TodayWeather (){
         <div>Today weather is </div>
     );
 }
+export default TodayWeather;
