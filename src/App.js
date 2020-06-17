@@ -20,6 +20,7 @@ function App() {
         <button onClick={()=> setCount(count + 1)}>Update Counter</button>
         <div className={`hot ${weather ? 'its-hot' : 'its-cold'}`}>
           <TodayWeather checkweather={weather ? 'Hot' : 'Cold'}/>
+          <button onClick={()=> setWeather(!weather)}>Update Weather</button>
         </div>
         <a
           className="App-link"
