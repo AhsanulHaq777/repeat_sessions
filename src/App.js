@@ -16,7 +16,7 @@ function App() {
           Let's repeat all the sessions.
         </p>
 
-        <button>Update Counter</button>
+        <button onClick={()=> setCount(count + 1)}>Update Counter</button>
 
         <MyChild childname='smart kid'  counter={count}/>
 
